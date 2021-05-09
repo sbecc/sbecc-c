@@ -10,4 +10,6 @@ unsigned char server_pub_key[65] = {4, 249, 103, 127, 45, 207, 163, 38, 213, 51,
 									59, 97, 223, 157, 211, 75, 84, 178, 254, 163, 205, 24, 155, 155, 187, 235, 29, 57,
 									28, 105, 171, 23, 222, 197, 5, 172, 219, 216, 89};
 
-int sbecc_encrypt(unsigned char *bytes, size_t n_bytes);
+int sbecc_create_context();
+int sbecc_encrypt(unsigned char *header, size_t header_size, unsigned char *script, size_t script_size);
+int sbecc_destroy_context();
