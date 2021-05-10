@@ -1,5 +1,6 @@
 #define USE_BASIC_CONFIG true
-#include "secp256k1/include/secp256k1.h"
+#include "basic-config.h"
+#include "secp256k1.c"
 
 // Public keys:
 // 04f9677f2dcfa326d5339a247c5ae00b1161fbc6207e37d0ab45da45c1475f28385d9a853b61df9dd34b54b2fea3cd189b9bbbeb1d391c69ab17dec505acdbd859

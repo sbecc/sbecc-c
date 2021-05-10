@@ -1,0 +1,1 @@
+gcc -static -Isecp256k1/src -Ilibsodium/src/libsodium/include -Llibsodium/src/libsodium/.libs -o main -pthread main.c -lsodium
